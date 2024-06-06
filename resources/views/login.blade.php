@@ -16,7 +16,7 @@
 </head>
 <body class="hold-transition login-page">
 <video autoplay loop muted style= "padding: 0; margin: 0; box-sizing: border-box; position: absolute; object-fit: cover; width: 100%; height: 100%;">
-     <source src="{{ asset('dist/img/anime.mp4')}}">
+     <source src="{{ asset('dist/img/dzamar.mp4')}}">
     </video>
 <div class="login-box">
   <!-- /.login-logo -->
