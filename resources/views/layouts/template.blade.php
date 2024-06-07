@@ -123,7 +123,7 @@
                             <a href="#" class="nav-link {{($title==='Gaji')?'active':''}}">
                                 <i class="nav-icon fas fa-boxes"></i>
                                 <p>
-                                    Layanan
+                                    Gaji
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -132,7 +132,7 @@
                                 <li class="nav-item">
                                     <a href="{{ route('gaji.index')}}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Layanan</p>
+                                        <p>Gaji Pegawai</p>
                                     </a>
                                 </li>
 
