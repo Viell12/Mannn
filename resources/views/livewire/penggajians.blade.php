@@ -53,9 +53,9 @@
                             <input type="hidden" name="penggajian_id" wire:model="penggajian_id" value="{{ $data->id }}">
 
                             <div class="form-group">
-                                <label for="gaji_id">Gaji</label>
+                                <label for="gaji_id">Gaji Pegawai</label>
                                 <select class="form-control" wire:model="gaji_id" name="gaji_id">
-                                    <option hidden>--Pilih Gaji--</option>
+                                    <option hidden>--Pilih Pegawai--</option>
                                     @foreach($datagaji as $dt )
                                     <option value="{{ $dt->id }}">{{ $dt->name }}</option>
                                     @endforeach
@@ -63,7 +63,7 @@
 
                             </div>
                             <div class="form-group">
-                                <label for="qty">Qty</label>
+                                <label for="qty">Jumlah</label>
                                 <input type="number" class="form-control" wire:model="qty" name="qty">
 
                             </div>

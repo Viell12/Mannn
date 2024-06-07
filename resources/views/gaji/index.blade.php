@@ -29,7 +29,7 @@
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Nama</th>
+                        <th>Nama Pegawai</th>
                         <th>Golongan</th>
                         <th>Jabatan</th>
                         <th>Nominal</th>

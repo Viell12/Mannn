@@ -150,7 +150,7 @@
 
                         <li class="nav-item">
                             <a href="laporan" target="_blank" class="nav-link {{ ($title==='Laporan') ? 'active':'' }}">
-                                <i class="nav-icon fas fa-cash-register"></i>
+                                <i class="nav-icon fas fa-file-pdf"></i>
                                 <p>
                                     Laporan
                                 </p>
