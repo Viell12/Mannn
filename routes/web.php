@@ -20,11 +20,11 @@ use App\Http\Controllers\LaporanController;
 |
 */
 
-// Route::get('/',function(){
-//     return view('welcome',[
-//         "title"=>"Dashboard"
-//     ]);
-// })->middleware('auth');
+Route::get('/',function(){
+    return view('welcome',[
+        "title"=>"Dashboard"
+    ]);
+})->middleware('auth');
 
 Route::get('/', [WelcomeController::class, 'welcome'])->middleware('auth');
 Route::resource('gaji', GajiController::class)->middleware('auth');
